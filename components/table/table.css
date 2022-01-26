@@ -1,0 +1,16 @@
+.table-drag-select td {
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* border: 0.7rem solid transparent; */
+    /* background-clip: padding-box; */
+    line-height: 3rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding: 1px;
+    margin: 0;
+    line-height: 1;
+    background: #fff !important;
+    border: 1px solid;
+    height: 16px;
+}

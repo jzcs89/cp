@@ -1,0 +1,273 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.mahmoudzadeh-just-for-border {
+    box-shadow: inset -1px 6px 6px 0px #0000000a;
+}
+
+.mahmoduzadeh-just-justify {
+    text-align: justify;
+}
+
+.mahmoudzadeh-just-bold {
+    font-weight: bold;
+    color: #2bb8c5;
+}
+
+.mahmoudzadeh-button {
+    border: solid 2px #b49350;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.mahmoudzadeh-button:hover {
+    border: solid 2px #b49350;
+    background: #b49350;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 4px 5px #c1953e82;
+}
+
+.for-left-type {
+    text-align: left;
+}
+
+
+/* new css */
+
+div.hm_lightbox {
+    display: inline-block;
+}
+
+span.hm_lightbox_full {
+    z-index: 999;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s linear;
+}
+
+span.hm_lightbox_full img {
+    position: fixed;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    max-height: 90%;
+    max-width: 90%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px black;
+}
+
+a.hm_lightbox_close,
+a.hm_lightbox_prev,
+a.hm_lightbox_next {
+    z-index: 999;
+    position: fixed;
+    text-decoration: none;
+    visibility: hidden;
+    color: white;
+    font-size: 36px;
+}
+
+a.hm_lightbox_close {
+    top: 1%;
+    right: 1%
+}
+
+a.hm_lightbox_close::after {
+    content: '\00d7';
+}
+
+.card-body-qust-hm {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: #e8e8e8;
+    color: #6f7285;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: inset 0 8px 20px -15px #0000008c;
+}
+
+.card-qust-hm {
+    border: 1px solid gainsboro;
+    border-radius: 0.1875rem;
+    /* display: inline-block; */
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 2px;
+    border-bottom: 2px solid #d3d6e0;
+}
+
+
+/* 3D button */
+
+.rotate-button {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: 'arial'
+}
+
+.rotate-button .rotate-button-face,
+.rotate-button .rotate-button-face-back {
+    position: absolute;
+    display: block;
+    border: 1px solid #00bfd6;
+    transition: all .5s;
+    color: #35495e;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.rotate-button .rotate-button-face {
+    background-color: #eff2f3;
+    transform: translateZ(15px);
+}
+
+.rotate-button .rotate-button-face-back {
+    background-color: #00bfd6;
+    color: #fff;
+    border: 1px solid #00bfd6;
+    transform: rotateX(-90deg) translateZ(15px);
+}
+
+.rotate-button:hover {
+    transform: rotateX(90deg);
+}
+
+.for-font-but {
+    font-family: iransans;
+}
+
+.margin-hm {
+    margin: 20px;
+}
+
+.hm-middle-box {
+    margin: auto;
+}
+
+.css-cs-ws {
+    color: #2bb8c5;
+    width: 25px;
+    margin-top: -4px;
+    margin-left: 5px;
+}
+
+.for-text-hm {
+    color: #00bfd6;
+}
+
+.m-top {
+    margin-top: 20px;
+}
+
+.hr-top {
+    border-top: solid 1px #cccccc;
+    padding-top: 40px;
+}
+
+.for-text-hm-2 {
+    color: #b29350;
+}
+
+.m-hm {
+    flex: 0 0 48%;
+    margin: 1%;
+}
+
+@media only screen and (max-width: 768px) {
+    .resp-hm .img-sec {
+        width: 55px;
+        display: none;
+    }
+}
+
+.bord-dw-hm {
+    border-bottom: dashed 1px #0005;
+}
+
+
+/* برای مقالات exe egze */
+
+.for-this-a {
+    border: dashed 1px #0004;
+    padding: 15px;
+    position: relative;
+}
+
+.fehrest-icon {
+    color: #08c0cc;
+}
+
+.icon-tak-fehrest {
+    font-size: 13px;
+    color: #08c0cc;
+}
+
+.fehrest-tak-1 {
+    position: absolute;
+    top: -43px;
+    background: #fff;
+    padding: 0 11px;
+}
+
+.read-more-hm {
+    max-height: 2000px;
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* blok qute نقل قول */
+
+.qute-hm {
+    background: #08c0cc;
+    margin: 14px;
+    color: #ffffff;
+    border-right: solid 5px #089ba5;
+    content: "\f004";
+    text-shadow: 1px 1px 1px #0005;
+}
+
+.qute-hm:before {
+    content: "\f132";
+    font-family: fontawesome;
+    position: absolute;
+    right: 6px;
+    top: -10px;
+    font-size: 20px;
+    background: #b29350;
+    width: 31px;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.bord-dowr-hm {
+    border: dashed 1px #b29350;
+    border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+@media print {
+    .wrapper.default,
+    div#najva-bell,
+    .srch-mobile,
+    #NewMenu,
+    .logo-area-fix,
+    tr.calc-area-print,
+    .no-print,
+    footer.main-footer.default {
+        display: none;
+    }
+    .calc-title-print {
+        display: block !important;
+    }
+}
+
+.menu-svg svg {
+    font-size: 13px;
+    width: 20px;
+    height: 20px;
+}
